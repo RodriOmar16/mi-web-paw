@@ -21,3 +21,14 @@
 .formulario > input{
   margin-bottom: 10px;
 }
+
+.video-section{
+  margin: 20px 10px;
+  display: flex;
+  justify-content: center;
+}
+.video-capitulo{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
