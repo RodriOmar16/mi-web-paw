@@ -78,3 +78,27 @@ arrayString.forEach(e => {
   arrayString2.push(e.toUpperCase());
 });*/
 console.log("ahora nvo arrayString: ", arrayString);
+
+let arrayNombres = ["rodrigo", "mariana", "carlos", "juancito"];
+let nombreMayuscula;
+/*nombreMayuscula = arrayNombres.map(function(elem){
+  return elem.toUpperCase();
+});*/
+nombreMayuscula = arrayNombres.map(e => e.toUpperCase());
+console.log(nombreMayuscula);
+
+let cuadradoNros;
+/*cuadradoNros = arrayNrosEnteros.map(function(elem){
+  return Math.pow(elem,2);
+});*/
+cuadradoNros = arrayNrosEnteros.map(e => Math.pow(e,2));
+console.log("cuadrado de los nros: ", cuadradoNros);
+
+let arrayPaises = ["Argentina","Colombia", "Bolivia", "Perú"];
+let arrayIniciales;
+/*arrayIniciales = arrayPaises.map(function(elem){
+  return elem[0];
+});*/
+arrayIniciales = arrayPaises.map(e => e[0]);
+console.log(arrayIniciales)
+
