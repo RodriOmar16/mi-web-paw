@@ -4,19 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <title>Mi primera Ventana</title>
 </head>
 <body>
-  <header>
+  <header class="header-section">
     <h1>Hola mundo...!!</h1>
-    <nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="nav-barra container-fluid">
+        <a class="navbar-brand">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><button class="btn btn-primary">Contáctanos</button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--<nav class="nav-barra">
       <ul>
         <li> <a href="#inicio">Inicio</a></li>
         <li> <a href="#inicio">Servicios</a></li>
         <li> <a href="#inicio">Nosotros</a></li>
-        <li> <button>Contáctanos</button> </li>
+        <li> <button class="btn btn-primary">Contáctanos</button> </li>
       </ul>
-    </nav>
+    </nav>-->
   </header>
   <section id="principal">
     <article>
@@ -31,7 +56,7 @@
   <br>
   <section class="contenedor-formulario">
     <form action="" class="formulario">
-      <h2>Crear una Cuenta para PAW</h2>
+      <h2 class="mb-2">Crear una Cuenta para PAW</h2>
       <label for="nombre-usuario" style="margin-right: 12px;">Nombre:</label>
       <input id="nombre-usuario" name="nombre-usuario" type="text" size="50" class="input-form"><br>
 
@@ -41,8 +66,8 @@
       <label for="cuenta-solicitada" >Cuenta Solicitada</label>
       <input id="cuenta-solicitada" name="cuenta-solicitada" type="text" size="25">@paw.unsa.edu.ar<br>
       
-      <label for="apellido">Contraseña:</label>
-      <input id="apellido" name="apellido" type="password" size="50"> <br>
+      <label for="pass">Contraseña:</label>
+      <input id="pass" name="pass" type="password" size="50"> <br>
 
       <label for="sexo">Sexo: </label>
       <input type="radio" name="sexo">Hombre
@@ -50,7 +75,7 @@
 
       <label for="">Fecha de Nacimiento</label>
       <input type="date"><br>
-      
+
 
       <label for="fec-nacimiento">Fecha Nac.:</label>
       <input id="fec-nacimiento" name="fec-nacimiento" type="number" max="31" min="1">
@@ -79,7 +104,7 @@
   </section>
   <!-- Videos -->
    <section class="video-section">
-    <video controls src="../clases_diego/videos/NS 394 - El Nuevo Examen Chuunin.mp4" class="video-capitulo"></video>
+    <video controls src="" class="video-capitulo"></video>
    </section>
 
   <br>

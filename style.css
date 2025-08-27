@@ -3,20 +3,20 @@
 }
 
 .contenedor-formulario{
-  height: 600px;
+  height: 700px;
   display: flex;
   align-items: center;
   padding: 10px 20xp;
-  background-color:blueviolet
 }
 .formulario{
   margin-left: auto;
   margin-right: auto;
   border: 1px solid ;
-  padding: 10px 25px;
+  padding: 20px 25px;
   min-width: 600px;
   height: 80%;
-  background-color: aquamarine;
+  background-color: rgb(221, 222, 222);
+  border-radius: 25px;
 }
 .formulario > input{
   margin-bottom: 10px;
@@ -31,4 +31,9 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  min-height: 600px;
+}
+.nav-barra{
+  display: flex;
+  justify-content: space-between;
 }
