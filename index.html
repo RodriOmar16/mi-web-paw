@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Mi primera Ventana</title>
+</head>
+<body>
+  <header>
+    <h1>Hola mundo...!!</h1>
+    <nav>
+      <ul>
+        <li> <a href="#inicio">Inicio</a></li>
+        <li> <a href="#inicio">Servicios</a></li>
+        <li> <a href="#inicio">Nosotros</a></li>
+        <li> <button>Contáctanos</button> </li>
+      </ul>
+    </nav>
+  </header>
+  <section id="principal">
+    <article>
+      <h2>Mis gatitos</h2>
+      <figure>
+        <img src="./images/gatito.avif" alt="gatito" width="30%">
+        <figcaption>Esto es una foto</figcaption>
+      </figure>
+      <p>Otro gato</p>
+    </article>
+  </section>
+  <br>
+  <section class="contenedor-formulario">
+    <form action="" class="formulario">
+      <h2>Crear una Cuenta para PAW</h2>
+      <label for="nombre-usuario" style="margin-right: 12px;">Nombre:</label>
+      <input id="nombre-usuario" name="nombre-usuario" type="text" size="50" class="input-form"><br>
+
+      <label for="apellido">Apellidos:</label>
+      <input id="apellido" name="apellido" type="email" size="50"> <br>
+      
+      <label for="cuenta-solicitada" >Cuenta Solicitada</label>
+      <input id="cuenta-solicitada" name="cuenta-solicitada" type="text" size="25">@paw.unsa.edu.ar<br>
+      
+      <label for="apellido">Contraseña:</label>
+      <input id="apellido" name="apellido" type="password" size="50"> <br>
+
+      <label for="sexo">Sexo: </label>
+      <input type="radio" name="sexo">Hombre
+      <input type="radio" name="sexo">Mujer  <br>
+
+      <label for="">Fecha de Nacimiento</label>
+      <input type="date"><br>
+
+      <label for="fec-nacimiento">Fecha Nac.:</label>
+      <input id="fec-nacimiento" name="fec-nacimiento" type="number" max="31" min="1">
+      <select name="mes" id="mes">
+        <option value="1">Enero</option>
+        <option value="2">Febrero</option>
+        <option value="3">Marzo</option>
+        <option value="4">Abril</option>
+        <option value="5">Mayo</option>
+        <option value="6">Junio</option>
+        <option value="7">Julio</option>
+        <option value="8">Agosto</option>
+        <option value="9">Septiembre</option>
+        <option value="10">Octubre</option>
+        <option value="11">Noviembre</option>
+        <option value="12">Diciembre</option>
+      </select>
+      <input name="anio" id="anio" type="number" min="1900" max="2100">
+      <br>
+
+      <label for="comentario">Comentario:</label> <br>
+      <textarea name="comentario" id="comentario" rows="5" cols="70"></textarea> <br><br>
+      
+      <input type="submit">  <button>Cancelar</button>
+    </form>
+  </section>
+  <br>
+  <footer name="pie-pagina" id="pie-pagina">
+    <span>LOGO</span>
+    <ol>
+      <li>Inicio</li>
+      <li></li>
+      <li></li>
+    </ol>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+
+.contenedor-formulario{
+  height: 600px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20xp;
+  background-color:blueviolet
+}
+.formulario{
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid ;
+  padding: 10px 25px;
+  min-width: 600px;
+  height: 80%;
+  background-color: aquamarine;
+}
+.formulario > input{
+  margin-bottom: 10px;
+}
